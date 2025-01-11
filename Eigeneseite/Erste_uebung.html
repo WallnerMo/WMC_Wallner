@@ -6,25 +6,71 @@
               href="style.css">
         <title>Varian</title>
     </head>
-    <body>
+    <body class="body">
         <h1>Willkommmen</h1>
-        <p>
-             Du hast Varians Schmiede berteten
-            <br>Varian grüßt dich Besucher.
-        </p>
-            <hr>
-            <div><img src="Bilder/Varian.png" height="250" alt="Bild von Varian beim Schmieden">
+            <div class="grus">
+                <p>
+                     Du hast Varians Schmiede berteten
+                    <br>Varian grüßt dich Besucher.
+                </p>
             </div>
-          <p><br>Varian ist ein Charakter aus dem P&P <b>Erben des Reiches</b>.
-                <br>
-            	<br>Fals ihr wissen wollt was Varian bis jetzt alles erlebt habt,
-                gibt es den link zu seinen aufgezeichneten Abenteuern
-                <br><b><a style="color: red;" href="https://www.youtube.com/watch?v=z7OVYksRI4E&list=PLU9pml3USjEXI90FetYoplJ1qaSDuCg60">Varians Abenteuer</a></b>
-                <br>
-                <br>Damit ihr kein Weiteres Abenteuer verpasst schaut doch einfach auf 
-                <b><a style="color: blueviolet;" href="https://www.twitch.tv/wolfun_wolfskin">Twitch</a></b>  vorbei.
-                 Wo seine Erlebnisse jeden Zweiten Mittwoch live übertragen werden.
-        
-        </p>
+            <div class="varianbild">
+                <img src="Bilder/Varian.png" height="250" alt="Bild von Varian beim Schmieden">
+            </div>
+            
+            <div class="herkunft">
+                <br>Varian ist ein Charakter aus dem P&P <b>Erben des Reiches</b>.
+                    <br>
+                    <br>Fals ihr wissen wollt was Varian bis jetzt alles erlebt habt,
+                    gibt es den link zu seinen aufgezeichneten Abenteuern
+                    <br><b><a style="color: red;" href="https://www.youtube.com/watch?v=z7OVYksRI4E&list=PLU9pml3USjEXI90FetYoplJ1qaSDuCg60">Varians Abenteuer</a></b>
+                    <br>
+                    <br>Damit ihr kein Weiteres Abenteuer verpasst schaut doch einfach auf
+                    <b><a style="color: blueviolet;" href="https://www.twitch.tv/wolfun_wolfskin">Twitch</a></b>vorbei.
+                     Wo seine Erlebnisse jeden Zweiten Mittwoch live übertragen werden. 
+            </div>
     </body>
 </html>
+<style>
+    .body {
+        background: linear-gradient(to top, #4b0000, #ff4500, #ffa500);
+        background-size: cover;
+        color: #000000;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        background: url('flames.jpg') repeat;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .grus {
+        color: #000000;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .varianbild {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .varianbild img{
+        border: 10px solid inherit;
+        border-radius: 150px; 
+        padding: 10px; 
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        background-color: inherit; 
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .herkunft {
+        color: #000000;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
