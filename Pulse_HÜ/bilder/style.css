@@ -1,0 +1,17 @@
+:root {
+    --pulse-color-page-background: #eafaf1;
+    --pulse-color-card-background: #d6dae5;
+    --pulse-color-faq-background: #fcfcfc;
+    --pulse-color-headings: #00ad6a;
+    --pulse-color-headings-rgb: rgb(0,173,106);
+    --pulse-color-buttons: #1fe374;
+    --pulse-color-dark: #080c16;
+
+    --bs-succsess:var(--pulse-color-headings);
+    --bs-succsess-rgb:var(--pulse-color-headings-rgb)
+}
+
+body {
+    color: var(--pulse-color-dark);
+    background: var(--pulse-color-page-background);
+}
