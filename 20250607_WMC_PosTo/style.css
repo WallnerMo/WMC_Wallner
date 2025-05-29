@@ -85,8 +85,8 @@
     height: 100px; /* Höhe nur für den Namen */
     margin-bottom: 0px;
     overflow: visible;
-    align-items: center;      /* vertikal zentrieren */
-    justify-content: center;  /* horizontal zentrieren */
+    align-items: center;      /*vertikal zentrieren*/
+    justify-content: center;  /*horizontal zentrieren*/
 }
 
 .monster-card .collapse {
@@ -102,4 +102,14 @@
 
 .monster-card .collapse.show {
     display: block;
+}
+.countdown {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    font-weight: bold;
+    height: 40vh;         /* Höhe anpassen*/
+    margin-top: 10vh;     /*Abstand von oben*/
+    text-align: center;
 }
