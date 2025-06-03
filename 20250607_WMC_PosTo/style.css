@@ -113,3 +113,10 @@
     margin-top: 10vh;     /*Abstand von oben*/
     text-align: center;
 }
+
+
+.header_countdown {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 1.5rem;
+}

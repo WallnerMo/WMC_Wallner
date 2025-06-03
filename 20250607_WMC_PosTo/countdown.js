@@ -34,3 +34,21 @@ function party() {
     });
   }, 1000);
 }
+
+// Funktion für Konfetti
+function konfettiAbfeuern() {
+    confetti({
+        particleCount: 100,
+        spread: 110,
+        origin: { y: 0.6 }
+    });
+}
+
+// Konfetti auslösen, wenn man mit der Maus über den Countdown fährt
+const countdownE = document.getElementById("countdown");
+if (countdownEl) {
+    countdownEl.addEventListener("mouseenter", () => {
+        const interval = setInterval(konfettiAbfeuern, 600);
+        countdownEl.addEventListener("mouseleave", () => clearInterval(interval), { once: true });
+    });
+}
