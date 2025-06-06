@@ -14,13 +14,6 @@
     margin-left: 0px;
     margin-right: 0px;;
 }
-.img1{
-    display: flex;
-    justify-content: left;
-    margin-top: 0px;
-    margin-left: 0px;
-    height: 120px;
-}
 .navbar{
     display: flex;
     justify-content: space-evenly;
@@ -32,6 +25,7 @@
 }
 .navbar ul{
     display: flex;
+    flex-wrap: wrap; /* Erlaubt Umbruch in mehrere Reihen */
     justify-content: space-between;
     list-style-type: none;
     height: 6%;
@@ -58,7 +52,7 @@
 }
 .header{
     text-align: center;
-    margin-top: 130px;
+    margin-top: 200px;
     font-size: 1.5rem;
 }
 .card-body{
@@ -119,4 +113,20 @@
     text-align: center;
     margin-top: 130px;
     font-size: 1.5rem;
+}
+
+.waffen-details {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: var(--card-bg, #fff);
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+.waffenListe {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 Spalten */
+    gap: 16px;
 }
