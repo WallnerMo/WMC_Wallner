@@ -1,7 +1,7 @@
 // 🗓️ Datum des letzten Schultags (2025-06-26T18:40:00 )
 const endDate = new Date("2025-06-26T18:40:00");
 
-const countdownEl = document.getElementById("countdown");
+const countdownEl = document.getElementById("countdown");//Holt das HTML-Element, in dem der Countdown angezeigt werden soll.
 
 function updateCountdown() {
   const now = new Date();
@@ -25,7 +25,7 @@ function updateCountdown() {
 const timer = setInterval(updateCountdown, 1000);
 updateCountdown(); // direkt beim Laden starten
 
-function party() {
+function party() { //Wenn der Countdown abgelaufen ist, wird jede Sekunde Konfetti ausgelöst (mit der externen Bibliothek confetti).
   setInterval(() => {
     confetti({
       particleCount: 100,
