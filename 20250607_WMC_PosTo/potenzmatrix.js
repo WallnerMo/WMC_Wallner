@@ -47,7 +47,7 @@ function matrixPower(matrix, n) {
     return result;
 }
 
-// Alle Potenzen bis zur Knotenzahl berechnen und anzeigen
+// Alle Potenzen bis zur Knotenzahl berechnen
 function printAllPowers(matrix) {
     const output = document.getElementById("matrixOutput");
     if (!output) return;
